@@ -1,0 +1,18 @@
+name:           text-issue
+version:        0.1.0.0
+synopsis:       Short description of your package
+author:         Mario Longobardi
+maintainer:     mlongob@gmail.com
+copyright:      2017 Mario Longobardi
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+executable text-issue
+  main-is: Main.hs
+  ghc-options: -rtsopts
+  build-depends:
+      base >= 4.7 && < 5
+    , text
+  default-language: Haskell2010
